@@ -1,0 +1,131 @@
+
+<html>
+	<head>
+
+    <title>Projects</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(30deg, #fff 30%, #2196f3);
+        }
+
+
+
+        h3 {
+            text-align: center;
+            padding: 20px;
+            background-color: darkslateblue;
+            color: aliceblue;
+            width: auto;
+            display: inline-block;
+            border-radius: 20px;
+            font-size: 30px;
+
+        }
+
+        input[type=submit] {
+            width:auto;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin: 6px;
+            font-size: 22px;
+            background-color: black;
+            color: white;
+            box-shadow: 0px 0px 22px 0px black;
+            position: absolute;
+            left: calc(50% - 100px);
+            bottom: calc(50% - 30px);
+            font-family: sans-serif;
+            
+        }
+        
+        .proj {
+            
+            height: 100vh;
+        }
+        
+        input[type=submit]:hover {
+            
+             background:#0a6ebd;
+            color: white;
+          animation: walk 5s linear infinite;
+*/
+
+        }
+
+        @keyframes walk {
+
+            0% {
+                box-shadow: 0px 0px 22px 0px black;
+            } 30% {
+                box-shadow: 0px 0px 32px 0px green;
+            } 
+            50% {
+                box-shadow: 0px 0px 42px 0px purple;
+            } 
+            70% {
+                box-shadow: 0px 0px 52px 0px blue;
+            } 
+            100% {
+                box-shadow: 0px 0px 62px 0px red;
+            }
+        }
+        
+        #proj {
+            
+            
+              position: relative;
+            left: 2%;
+            bottom:0px;
+            top:50px;
+            height: 100vh;
+        }
+        .img {
+            background-image: url(empty.jpg);
+            width: 30%;
+            height: 300px;
+            margin: 10px;
+            float: left;
+            background-size: cover;
+                 transition: 1s;
+           
+            
+        }
+        
+        .img:hover {
+             background-image: url(img/bd1.jpg);
+            box-shadow: 0px 0px 62px 0px black;
+            transition: 1s;
+            background-size: cover;
+           
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="proj">
+    
+    <h3>
+        We design all in one websites for the complex needs of your business and reputation.
+    </h3>
+    <br>
+    <a href="#proj"><input type="submit" value="SEE MY PROJECTS"> </a>
+    <a href="#proj"><input type="submit" value="SEE MY PROJECTS"> </a>
+        
+    </div>    
+    
+    <div id="proj">
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+    </div>
+
+</body></html>
